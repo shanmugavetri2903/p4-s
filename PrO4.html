@@ -1,0 +1,244 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biosphere - Medical Biotechnology</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eaf4fc;
+            color: #24445c;
+        }
+
+        /* Navigation Bar */
+        header {
+            background-color: #087ba8;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        nav {
+            text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            margin: 8px 15px;
+        }
+
+        nav a:hover {
+            color: #bcecff;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #c7e8f5;
+            text-align: center;
+            padding: 75px 20px;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #174f6d;
+        }
+
+        .hero p {
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        .hero-icons {
+            margin-top: 15px;
+            font-size: 20px;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 950px;
+            margin: 35px auto;
+            padding: 0 15px;
+        }
+
+        .section-title {
+            font-size: 27px;
+            margin-bottom: 20px;
+            color: #244b65;
+        }
+
+        /* Cards Container - Without Flexbox */
+        .cards {
+            text-align: center;
+        }
+
+        .card {
+            display: inline-block;
+            vertical-align: top;
+            width: 48%;
+            background-color: white;
+            padding: 25px;
+            margin: 0 0.5% 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+            text-align: left;
+        }
+
+        .card h2 {
+            color: #0782b5;
+            font-size: 21px;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            font-size: 14px;
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+
+        /* Technologies Section */
+        .technologies {
+            background-color: #1689ad;
+            color: white;
+            padding: 40px 26px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .technologies h2 {
+            font-size: 21px;
+            margin-bottom: 15px;
+        }
+
+        .technologies p {
+            font-size: 14px;
+            margin-bottom: 12px;
+        }
+
+        /* Responsive Layout */
+        @media (max-width: 650px) {
+
+            .hero h1 {
+                font-size: 26px;
+            }
+
+            .card {
+                display: block;
+                width: 100%;
+                margin: 0 0 20px;
+            }
+
+            nav a {
+                margin: 8px;
+            }
+
+            .section-title {
+                font-size: 23px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="logo">🧬 Biosphere</div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#media">Media</a>
+            <a href="#innovations">Innovations</a>
+            <a href="#location">Location</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <h1>Biotechnology-Driven Medical Innovations</h1>
+
+        <p>
+            Discover how biotechnology is transforming modern medicine
+            through scientific research, advanced technology and
+            innovative healthcare solutions.
+        </p>
+
+        <div class="hero-icons">
+            🧬 🔬 🧪
+        </div>
+
+    </section>
+
+    <!-- Main Content -->
+    <main class="container" id="about">
+
+        <h2 class="section-title">
+            Explore Medical Biotechnology
+        </h2>
+
+        <!-- Cards -->
+        <div class="cards">
+
+            <div class="card">
+
+                <h2>🧬 Medical Biotechnology</h2>
+
+                <p>Genetic Engineering</p>
+                <p>Vaccine Development</p>
+                <p>Stem Cell Research</p>
+                <p>Gene Therapy</p>
+
+            </div>
+
+            <div class="card">
+
+                <h2>🔬 Healthcare Innovations</h2>
+
+                <p>Personalized Medicine</p>
+                <p>Advanced Disease Diagnosis</p>
+                <p>Medical Research</p>
+                <p>Modern Treatments</p>
+
+            </div>
+
+        </div>
+
+        <!-- Technologies Section -->
+        <section class="technologies" id="innovations">
+
+            <h2>Technologies of Tomorrow</h2>
+
+            <p>Artificial Intelligence in Healthcare</p>
+            <p>Genetic Engineering</p>
+            <p>Stem Cell Technology</p>
+            <p>Biotechnology Research</p>
+            <p>Personalized Medicine</p>
+            <p>Advanced Medical Imaging</p>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
